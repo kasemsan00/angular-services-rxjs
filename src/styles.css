@@ -1,6 +1,25 @@
 .main {
+	height: 100vh;
   display: flex;
   flex: 1;
+	flex-direction: column;
   justify-content: center;
   align-content: center;
+  align-items: center;
+}
+.button-group {
+	display: flex;
+	gap: 15px;
+	margin: 20px;
+}
+.button-group > button {
+	background-color: white;
+	border-radius: 10px;
+	width: 200px;
+	height: 50px;
+	cursor: pointer;
+}
+.button-group > button:hover {
+	background-color: #808184;
+	color: white;
 }
